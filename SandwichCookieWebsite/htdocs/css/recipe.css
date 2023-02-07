@@ -1,0 +1,263 @@
+/*
+    Daniel Zayas
+    Art 358
+    Web Design
+*/
+
+/*CSS for Art385 Recipe Site*/
+
+body
+{
+    background-image: url(/images/seamless-tablecloth-texture.gif);
+}
+
+#container
+{
+    width: 960px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+header
+{
+    background-image: url(/images/sandwich_cookie_header.png);
+    background-position: center;
+    color: #FFFFFF;
+    height: 214px;
+    position: relative;
+}
+
+header h1
+{
+    font-family: 'Sniglet', cursive;
+    font-size: 4em;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 70px;
+    text-align: center;
+}
+
+#nav1
+{
+    
+    width: 100%;
+    position: absolute;
+    left: 460px;
+    bottom: 1px;
+}
+
+#nav1 ul
+{
+    list-style-type: none;
+}
+
+#nav1 li
+{
+    float: left;
+    padding-left: 10px;
+}
+
+#nav1 a:link, a:visited
+{
+    background-color: #513B2E;
+    color: #C6C6C6;
+    padding: 4px 6px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav1 a:hover, a:active
+{
+    color: #FFFFFF;
+}
+
+#nav1 a#current:hover
+{
+    color: #C6C6C6;
+}
+
+#nav1 a#current
+{
+    background-color: #F5E7D0;
+    color: #000000;   
+    border-style: solid;
+    border-color: #F4ECDF; 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#content
+{
+    position: relative;
+    left: 22px;
+    border: 1px solid #F4ECDF;
+    border-radius: 15px;
+    padding: 10px;
+    color: #000000;
+    float: left;
+    
+    /*Gradient Background*/
+    background: #f5e7d0; /* Old browsers */
+    background: -moz-linear-gradient(top, #f5e7d0 4%, #ead3b0 16%, #ccb796 49%, #e6cfa8 84%, #f5e7d0 94%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(4%,#f5e7d0), color-stop(16%,#ead3b0), color-stop(49%,#ccb796), color-stop(84%,#e6cfa8), color-   stop(94%,#f5e7d0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f5e7d0 4%,#ead3b0 16%,#ccb796 49%,#e6cfa8 84%,#f5e7d0 94%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f5e7d0 4%,#ead3b0 16%,#ccb796 49%,#e6cfa8 84%,#f5e7d0 94%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f5e7d0 4%,#ead3b0 16%,#ccb796 49%,#e6cfa8 84%,#f5e7d0 94%); /* IE10+ */
+    background: linear-gradient(to bottom, #f5e7d0 4%,#ead3b0 16%,#ccb796 49%,#e6cfa8 84%,#f5e7d0 94%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5e7d0', endColorstr='#f5e7d0',GradientType=0 ); /* IE6-9 */
+}
+
+#content.col1 
+{
+    padding: 30px;
+    position: relative;
+    left: 19px;
+    width: 875px;
+}
+
+#nav2
+{
+    width: 140px;
+    float: left;   
+    background-color: #846D68;   
+    color: #FFFFFF;
+}
+
+#nav2 ul 
+{
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #544542;
+}
+
+#nav2 li
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border-top: 1px solid #544542;
+}
+
+#nav2 a
+{
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+#nav2 a:hover, a:active
+{
+    background-color: #D3ADA4;
+}
+
+
+#nav2 a#currentNav2
+{
+    background-color: #D3ADA4;
+    padding: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: block;
+}
+
+.recipe 
+{
+    font-family: "Arial", "Georgia", sans-serif;
+    width: 498px;
+    padding: 30px;
+    float: left; 
+}
+
+.recipe table, th, td 
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+.recipe a
+{
+    border-width: thin;
+    border-style: solid; 
+    border-top-color: #E8BCB2;
+    border-right-color: #544542;
+    border-left-color: #E8BCB2;
+    border-bottom-color: #544542;
+    padding: 5px;
+    text-decoration: none;
+    background-color: #846D68;
+    float: right;
+    color: #FFFFFF;
+}
+
+.recipe a:hover
+{  
+    background-color: #D3ADA4;
+}
+
+.recipe ul
+{
+    list-style-type: none;
+}
+
+.recipe h1 
+{  
+    background-color: #531E0E; 
+    color: #FFFFFF;
+    margin-top: -30px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.recipe h2 
+{  
+    color: #000000;
+}
+
+.recipe h3 
+{ 
+    color: #000000;
+}
+
+.recipe h4 
+{ 
+    color: #000000;
+    font-weight: bold;  
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+aside
+{
+    float: right;
+    width: 200px;
+    padding: 10px;
+    margin: 0;
+}
+
+footer
+{
+    background-image: url(/images/sandwich_cookie_footer.png);
+    background-position: center;
+    clear: both;
+    color: #FFFFFF;
+    height: 205px;
+}
+
+footer h1
+{
+    font-size: 1.5em;
+    margin: 0;
+    padding-top: 75px;
+    text-align: center;
+}
